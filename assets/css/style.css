@@ -60,3 +60,13 @@ button > i {
   background-color: #4c4c4c;
   cursor: pointer;
 }
+
+h1 {
+  color: black;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+h1 span {
+  color: #fe5d5d;
+}
