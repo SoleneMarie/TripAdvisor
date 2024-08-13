@@ -24,13 +24,13 @@
         </div>
         <div id="header-buttons">
           <button class="button">
-            <i class="fa-solid fa-pencil" data-fa-transform="grow-14"></i></i><span>Avis</span>
+            <i class="fa-solid fa-pencil"></i><span>Avis</span>
           </button>
           <button class="button">
-            <i class="fa-regular fa-bell"></i><span>Voyages</span>
+            <i class="fa-regular fa-heart"></i><span>Voyages</span>
           </button>
           <button class="button">
-            <i class="fa-regular fa-heart"></i><span>Alertes</span>
+            <i class="fa-regular fa-bell"></i><span>Alertes</span>
           </button>
           <button class="button" id="black-button">
             <span>Connectez-vous</span>
@@ -42,8 +42,108 @@
     <!-- MAIN -->
 
     <main>
-      <h1><span id="h1">Explorez</span> Paris</h1>
-      <section class="section" id="main-sec"></section>
+      <!--TITRE-->
+      <section class="section" id="main-sec">
+        <h1><span id="h1">Explorez</span> Paris</h1>
+        <p id="p-titre">
+          Les revenus influencent le choix des expériences présentées sur cette
+          page : <u>en savoir plus</u>.
+        </p>
+        <!--BLOCK NAV-->
+        <nav>
+          <button>
+            <p>Hôtels</p>
+            <i class="fa-solid fa-bed"></i>
+          </button>
+          <button>
+            <p>Locations de vacances</p>
+            <i class="fa-solid fa-house-crack"></i>
+          </button>
+          <button>
+            <p>Activités</p>
+            <i class="fa-solid fa-person-snowboarding"></i>
+          </button>
+          <button>
+            <p>Restaurants</p>
+            <i class="fa-solid fa-utensils"></i>
+          </button>
+          <button>
+            <p>Forums de voyage</p>
+            <i class="fa-regular fa-message"></i>
+          </button>
+          <button>
+            <p>Plus</p>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </nav>
+
+        <!---BLOCK PHOTOS-->
+        <section class="section" id="all-pics">
+          <div class="paris-div">
+            <img
+              class="paris"
+              src="./assets/img/Paris1TA.jpg"
+              alt="Bord de Seine à Paris"
+            />
+          </div>
+          <section id="photos-paris">
+            <div class="paris-div">
+              <img
+                id="margin-img"
+                class="paris"
+                src="./assets/img/Paris2TA.jpg"
+                alt="Couple visitant Paris en scooter"
+              />
+            </div>
+            <div class="paris-div">
+              <img
+                class="paris"
+                src="./assets/img/Paris3TA.jpg"
+                alt="Tour Eiffel illuminée dans la nuit parisienne"
+              />
+            </div>
+          </section>
+        </section>
+        <!--BLOC SUBTEXTE-->
+        <section id="all-subtext" class="section">
+          <p id="subtext">
+            Europe <i class="fa-solid fa-angle-right"></i> France
+            <i class="fa-solid fa-angle-right"></i> Île-de-France
+            <i class="fa-solid fa-angle-right"></i> Paris
+            <i class="fa-solid fa-caret-down"></i>
+          </p>
+
+          <div>
+            <p>Visiter : Paris</p>
+          </div>
+        </section>
+        <!--BLOC TEXTE-->
+        <section id="all-text" class="section">
+          <div id="presentation">
+            <h2>La Ville Lumière éblouit en tous points</h2>
+            <p id="p-presentation">
+              Aucun autre endroit au monde ne fait autant rêver que Paris. La
+              ville séduit par son art, son architecture, sa culture et sa
+              cuisine, mais il y a aussi des merveilles plus discrètes qui
+              n'attendent qu'à être explorées : les ruelles pavées pittoresques,
+              les pâtisseries au coin de la rue et les petits bistrots douillets
+              qui vous invitent à boire un verre de beaujolais. Préparez-vous à
+              vous approprier Paris.
+            </p>
+          </div>
+          <block id="prepare">
+            <div id="organize">
+              <h3>Paris : commencez à organiser!</h3>
+              <p id="p-organize">
+                Créez un voyage pour enregistrer et organiser toutes vos idées
+                et les visualiser sur une carte.
+              </p>
+              <button id="black-again">Créez un voyage</button>
+            </div>
+            <div id="map"><img src="./assets/img/MapTA.png" /></div>
+          </block>
+        </section>
+      </section>
     </main>
 
     <footer>
