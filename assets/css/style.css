@@ -28,15 +28,15 @@ header {
 
 #header-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
-  width: 500px;
+  width: 600px;
+  padding: 8px;
 }
 .button {
   appearance: auto;
   background-color: white;
   font-size: 16px;
-  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +44,7 @@ header {
   border-radius: 2rem;
   border: none;
   height: 40px;
+  margin-right: 10px;
 }
 button > i {
   margin-right: 8px;
@@ -58,6 +59,7 @@ button > i {
 #black-button {
   background-color: black;
   color: white;
+  margin-right: 0;
 }
 #black-button:hover {
   background-color: #4c4c4c;
