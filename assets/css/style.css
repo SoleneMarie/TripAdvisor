@@ -1,247 +1,25 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./main1.css";
+@import "./main2.css";
+@import "./main-carousel.css";
+@import "./main4.css";
+@import "./footer.css";
 body {
   font-family: TS-Reg, sans-serif;
   background-color: white;
 }
-header {
-  display: flex;
-  justify-content: center;
-}
 .section {
   width: 1135px;
 }
-#header-sec {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 24px;
-  width: 1135px;
-}
-#header-logo {
-  display: flex;
-  align-items: center;
-}
-#main-logo {
-  height: 40px;
-}
-#header-logo:hover {
-  cursor: pointer;
-}
 
-#header-buttons {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  width: 600px;
-  padding: 8px;
-}
-.button {
-  appearance: auto;
-  background-color: white;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  border-radius: 2rem;
-  border: none;
-  height: 40px;
-  margin-right: 10px;
-}
-button > i {
-  margin-right: 8px;
-  font-size: 22px;
-}
-
-.button:hover {
-  background-color: #f2f2f2;
-  cursor: pointer;
-}
-
-#black-button {
-  background-color: black;
-  color: white;
-  margin-right: 0;
-}
-#black-button:hover {
-  background-color: #4c4c4c;
-  cursor: pointer;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-}
-
-h1 {
-  font-family: "TS-Bold";
-  color: black;
-  font-size: 54px;
-  font-weight: 700;
-  margin: 4px;
-}
-
-h1 span {
-  color: #fe5d5d;
-}
-#p-titre {
-  font-size: 14px;
-  margin-bottom: 32px;
-  margin-top: 0;
-}
-u:hover {
-  cursor: pointer;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 24px;
-}
-nav button {
-  height: 66px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 12px;
-  background-color: white;
-  border-radius: 0.8rem;
-  width: 180px;
-}
-nav button:hover {
-  cursor: pointer;
-  background-color: black;
-  color: white;
-}
-nav button p {
-  width: 100px;
-  line-height: 20px;
-  text-align: left;
-  font-size: 15px;
-  display: block;
-  margin: 0;
-  font-weight: bold;
-}
-#photos-paris {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-}
-#all-pics {
-  height: 430px;
-  display: flex;
-  flex: 1;
-}
-#two-pics {
-  display: flex;
-  flex: 1;
-}
-
-.paris-div {
-  flex: 1.4;
-  display: flex;
-  overflow: hidden;
-  margin-left: 2px;
-}
-#margin-img {
-  margin-bottom: 2px;
-}
-.paris {
-  flex: 1;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-#top {
-  object-position: top;
-}
-.paris:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-#all-subtext {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-#subtext {
-  display: flex;
-  width: 300px;
-  justify-content: space-between;
-}
-#all-text {
-  display: flex;
-  height: 490px;
-}
-
-#presentation {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
 h2 {
   font-family: "TS-Bold";
   font-size: 30px;
-}
-#p-presentation {
-  font-size: 20px;
-  line-height: 22px;
 }
 h3 {
   padding: 10px;
   font-size: 30px;
   line-height: 40px;
   margin: 0;
-}
-#right {
-  display: flex;
-  justify-content: flex-end;
-  flex: 1;
-}
-#prepare {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  width: 420px;
-}
-#organize {
-  display: flex;
-  flex-direction: column;
-  background-color: #fe5d5d;
-  padding: 20px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-}
-#p-organize {
-  padding: 10px;
-  line-height: 20px;
-  padding-top: 0;
-}
-#black-again {
-  width: 154px;
-  height: 54px;
-  border-radius: 0.8rem;
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  margin-left: 10px;
-  margin-bottom: 6px;
-}
-#black-again:hover {
-  background-color: #4c1c1c;
-  cursor: pointer;
-}
-#map {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 0;
-  overflow: hidden;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-}
-#map img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
