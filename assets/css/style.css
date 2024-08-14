@@ -148,6 +148,10 @@ nav button p {
   object-fit: cover;
   object-position: center;
 }
+.paris:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 #all-subtext {
   display: flex;
@@ -163,7 +167,6 @@ nav button p {
 }
 #all-text {
   display: flex;
-  flex: 1;
   height: 490px;
 }
 
@@ -171,7 +174,6 @@ nav button p {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-right: 160px;
 }
 h2 {
   font-family: "TS-Bold";
@@ -186,6 +188,11 @@ h3 {
   font-size: 30px;
   line-height: 40px;
   margin: 0;
+}
+#right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 #prepare {
   display: flex;
