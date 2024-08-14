@@ -148,6 +148,9 @@ nav button p {
   object-fit: cover;
   object-position: center;
 }
+#top {
+  object-position: top;
+}
 .paris:hover {
   opacity: 0.8;
   cursor: pointer;
