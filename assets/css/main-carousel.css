@@ -1,0 +1,78 @@
+#all-carousel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+#carousel-lines {
+  display: flex;
+  height: 630px;
+  flex-direction: column;
+}
+
+.one-line {
+  display: flex;
+  height: 50%;
+}
+
+.carousel-txt {
+  flex: 1;
+  width: 250px;
+  padding: 20px;
+}
+
+.carousel-pics {
+  overflow-x: scroll;
+  gap: 10px;
+  flex-wrap: nowrap;
+  flex: 3;
+}
+
+.one-carousel-pic {
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 240px;
+}
+
+.image-logos-carousel {
+  display: flex;
+  position: relative;
+}
+
+.image-carousel {
+  height: 175px;
+  width: 100%;
+}
+.image-carousel img {
+  object-fit: fill;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+.certification {
+  display: flex;
+  position: absolute;
+}
+.certification img {
+  flex: 1;
+  height: 14px;
+}
+
+.heart {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.carousel-pic-title {
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.notation {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
