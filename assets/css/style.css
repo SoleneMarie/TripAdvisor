@@ -10,7 +10,7 @@ body {
   background-color: white;
 }
 .section {
-  width: 1135px;
+  max-width: 1135px;
 }
 
 h2 {

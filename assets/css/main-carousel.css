@@ -7,7 +7,7 @@
 
 #carousel-lines {
   display: flex;
-  height: 630px;
+  height: 800px;
   flex-direction: column;
 }
 
@@ -18,13 +18,12 @@
 
 .carousel-txt {
   flex: 1;
-  width: 250px;
-  padding: 20px;
+  margin-right: 60px;
 }
 
 .carousel-pics {
   overflow-x: scroll;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: nowrap;
   flex: 3;
 }
@@ -32,20 +31,19 @@
 .one-carousel-pic {
   overflow: hidden;
   flex-shrink: 0;
-  width: 240px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
 }
 
 .image-logos-carousel {
   display: flex;
   position: relative;
+  height: 52%;
 }
 
-.image-carousel {
-  height: 175px;
-  width: 100%;
-}
 .image-carousel img {
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
   height: 100%;
   width: 100%;
@@ -53,10 +51,13 @@
 .certification {
   display: flex;
   position: absolute;
+  height: 52px;
+  bottom: 10px;
+  left: 10px;
 }
 .certification img {
-  flex: 1;
-  height: 14px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
 }
 
 .heart {
@@ -64,15 +65,55 @@
   position: absolute;
   top: 8px;
   right: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+.svg {
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.svg i {
+  margin: auto;
+  font-size: 22px;
 }
 
 .carousel-pic-title {
   font-size: 22px;
-  line-height: 20px;
+  height: 40%;
+  margin-top: 0;
+  padding: 0;
+  font-family: "TS-Bold";
 }
-
+.carousel-pic-title h5 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 .notation {
   display: flex;
   justify-content: start;
   align-items: center;
+  height: 15%;
+  font-size: 12px;
+}
+.green-rounds img {
+  height: 16px;
+  margin-right: 6px;
+}
+.desciption {
+  margin-top: 4px;
+  height: 20%;
+  font-size: 14px;
+}
+
+.desciption p {
+  margin: 0;
+}
+.subtext-carousel {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 0;
 }
