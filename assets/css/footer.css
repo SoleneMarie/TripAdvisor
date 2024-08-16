@@ -1,0 +1,24 @@
+footer {
+  width: none;
+  background-color: #faf1ed;
+  height: 156px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#made-by {
+  display: flex;
+  height: 25%;
+  font-size: 14px;
+  align-items: center;
+}
+
+#made-by img {
+  height: 100%;
+  margin-right: 10px;
+}
+
+#made-by span {
+  font-family: "TS-Bold";
+}

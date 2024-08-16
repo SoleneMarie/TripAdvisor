@@ -37,6 +37,9 @@
   display: flex;
   align-items: center;
 }
+.guide-ref p {
+  margin: 0;
+}
 
 .guide-ref img {
   height: 100%;
