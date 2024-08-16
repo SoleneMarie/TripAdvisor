@@ -1,0 +1,53 @@
+#main-four {
+  margin-bottom: 120px;
+}
+#main-four h2 {
+  margin-bottom: 30px;
+}
+
+.flex-pics {
+  height: 380px;
+  border: solid 8px red;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.one-flex-pic {
+  border: solid 8px blue;
+  width: 40px;
+  flex: 30%;
+  height: 100%;
+}
+.one-flex-pic img {
+  height: 72%;
+  width: 100%;
+  object-fit: fill;
+}
+.one-flex-pic h5 {
+  margin-top: 6px;
+  line-height: 20px;
+}
+
+.one-flex-pic p {
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.guide-ref {
+  display: flex;
+  border: solid green;
+  align-items: center;
+}
+
+.guide-ref img {
+  height: 100%;
+  object-fit: contain;
+  width: 7%;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+.guide-ref p span {
+  font-family: "TS-Bold";
+}

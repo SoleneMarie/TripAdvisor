@@ -9,16 +9,21 @@ h1 {
   color: black;
   font-size: 54px;
   font-weight: 700;
-  margin: 4px;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: "TS-Bold";
 }
 
 h1 span {
   color: #fe5d5d;
 }
+
 #p-titre {
   font-size: 14px;
-  margin-bottom: 32px;
-  margin-top: 0;
+  margin-bottom: 40px;
+  margin-top: 12px;
 }
 u:hover {
   cursor: pointer;
@@ -89,4 +94,7 @@ nav button p {
 .paris:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+#unskippable {
+  margin-bottom: 40px;
 }
