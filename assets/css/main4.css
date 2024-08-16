@@ -7,14 +7,12 @@
 
 .flex-pics {
   height: 380px;
-  border: solid 8px red;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
 .one-flex-pic {
-  border: solid 8px blue;
   width: 40px;
   flex: 30%;
   height: 100%;
@@ -37,7 +35,6 @@
 
 .guide-ref {
   display: flex;
-  border: solid green;
   align-items: center;
 }
 
